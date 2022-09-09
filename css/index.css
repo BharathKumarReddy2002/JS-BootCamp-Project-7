@@ -146,3 +146,19 @@ h1{
     bottom: 1000px;
     left: 870px;
 }
+.menu{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-items{
+        display:none;
+    }
+    .menu{
+        display: block;
+    }
+    .action-img{
+        display: none;
+    }
+    
+  }
